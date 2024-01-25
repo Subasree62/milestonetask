@@ -1,0 +1,131 @@
+ /* Custom CSS for adjusting carousel height */
+ .carousel-item img {
+    height: 60vh; /* Set the height to 20% of the viewport height */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+.container1{
+    background-color: bisque;
+}
+
+
+.container2{
+    background-color: dimgrey;
+}
+
+
+
+
+  .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 2%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+
+/* Add this media query to make the navigation bar responsive */
+@media (max-width: 768px) {
+    .navbar-collapse {
+      justify-content: center;
+    }
+  
+    .navbar-nav {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Add this media query to make the carousel images responsive */
+  @media (max-width: 768px) {
+    #carouselExampleCaptions img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Add this media query to adjust the introduction text on smaller screens */
+  @media (max-width: 768px) {
+    .container1 {
+      padding: 20px;
+    }
+  
+    .container1 h1 {
+      font-size: 28px;
+    }
+  
+    .container1 p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Add this media query to adjust the global warming section on smaller screens */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .row h1 {
+      font-size: 28px;
+    }
+  
+    .col {
+      text-align: center;
+    }
+  
+    .col img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .col p {
+      font-size: 18px;
+    }
+  }
+  
